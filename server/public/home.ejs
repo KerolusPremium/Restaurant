@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
         <div class="logo">
-
+            <h1>Restaurant</h1>
         </div>
-        <ul class="list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+        <ul id="list" class="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="burger">
+        <div id="burger" class="burger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
         </div>
     </nav>
     <main>
-        <div class="container">
+        <div id="home" class="container">
             <div class="imgs">
                 <h1>Restaurant</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius, neque unde ut cupiditate mollitia totam reiciendis qui saepe sapiente, nostrum, deserunt doloribus nesciunt a earum eum quidem sint impedit?</p>
+                <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius, neque unde ut cupiditate mollitia totam reiciendis qui saepe sapiente, nostrum, deserunt doloribus nesciunt a earum eum quidem sint impedit?</p>
+            </div>
+            <div id="menu" class="tobic">
+                <h2>Menu</h2>
             </div>
             <div class="menu">
                 <div class="box">
@@ -37,6 +41,8 @@
                         <h2>Burger</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius, neque unde ut cupiditate mollitia totam reiciendis qui saepe sapiente</p>
                     </div>
+                    <span class="price">120 L.E</span>
+                    <button class="btn">Order</button>
                 </div>
     
                 <div class="box">
@@ -47,7 +53,10 @@
                         <h2>Fried Chicken</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius, neque unde ut cupiditate mollitia totam reiciendis qui saepe sapiente</p>
                     </div>
+                    <span class="price">120 L.E</span>
+                    <button class="btn">Order</button>
                 </div>
+                <br class="br">
                 <div class="box">
                     <div class="img">
                         <img src="imgs/pasta.jpeg" alt="">
@@ -56,21 +65,35 @@
                         <h2>Pasta</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius, neque unde ut cupiditate mollitia totam reiciendis qui saepe sapiente</p>
                     </div>
+                    <span class="price">120 L.E</span>
+                    <button class="btn">Order</button>
                 </div>
             </div>
-            <div class="about">
-                <h1>About</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quae nesciunt reprehenderit voluptatem iure possimus aliquam adipisci ratione deleniti architecto delectus vel laborum sed, officia aut beatae sapiente laudantium quibusdam? Error, temporibus. Error ea ullam nostrum voluptatibus aperiam molestiae fuga voluptas, commodi distinctio saepe explicabo optio tempora architecto quia, vel impedit quas, dignissimos provident quam modi delectus expedita quo? Itaque provident ad sed nemo minus minima fugiat harum excepturi eligendi hic doloremque, quae, labore esse cum consectetur maxime ullam expedita. Praesentium veniam consequatur libero error reiciendis accusamus. Nemo molestiae, pariatur hic odio earum molestias eos tempora mollitia, maxime voluptates fugiat rerum at et officiis error similique voluptas sit. Est mollitia rerum quos iusto voluptatibus exercitationem voluptates praesentium unde, incidunt nihil debitis eligendi cumque pariatur itaque, sequi, quaerat quasi nulla fuga ducimus alias placeat expedita assumenda. Atque saepe repudiandae deserunt, eius quaerat iusto illo, porro repellendus id ratione minima enim corporis, corrupti accusantium? At fugit quibusdam facere ipsa consectetur iure repudiandae eos quas, tenetur ratione! Eos nam odio, voluptas culpa veniam illum debitis ex fugit impedit molestiae! Iste reiciendis ducimus at numquam nobis. Quasi aliquam repudiandae nobis dicta quia reiciendis eum libero explicabo temporibus, quisquam natus, eaque saepe voluptatibus sint blanditiis soluta provident eligendi asperiores minus! Eveniet nisi voluptatibus quasi excepturi earum minus et quod ipsam impedit nam! Qui ipsum quaerat officiis veritatis, odio ut placeat omnis expedita similique molestias dolorem esse voluptatum voluptatem, earum autem facilis fugit alias dicta repudiandae excepturi nulla! Natus perspiciatis excepturi possimus cum libero, a voluptatum!</p>
+            <div class="tobic">
+                <h2>About</h2>
+            </div>
+            <div id="about" class="about">
+                <div class="con">
+                    <h2 class="h2">Our Story</h2>
+                    <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius, neque unde ut cupiditate mollitia totam reiciendis qui saepe sapiente, nostrum, deserunt doloribus nesciunt a earum eum quidem sint impedit?</p>
+                    <h2 class="h2">Our Expansion</h2>
+                    <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius, neque unde ut cupiditate mollitia totam reiciendis qui saepe sapiente, nostrum, deserunt doloribus nesciunt a earum eum quidem sint impedit?</p>
+                    <h2 class="h2">Our Vision</h2>
+                    <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius, neque unde ut cupiditate mollitia totam reiciendis qui saepe sapiente, nostrum, deserunt doloribus nesciunt a earum eum quidem sint impedit?</p>
+                </div>
+            </div>
+            <div id="contact" class="tobic">
+                <h2>Contact</h2>
             </div>
             <div class="contact">
                 <form action="/contact" method="post">
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
+                    <input class="inp" type="text" name="name" id="name">
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="email">
+                    <input class="inp" type="text" name="email" id="email">
                     <label for="message">Message</label>
-                    <textarea name="message" id="message"></textarea>
-                    <input type="submit" value="Submit">
+                    <textarea class="textarea" name="message" id="message"></textarea>
+                    <input class="submit" type="submit" value="Submit">
                 </form>
             </div>
         </div>
